@@ -8,6 +8,10 @@
     align-items: end;
     gap: 30px;
     margin-right: 30px;
+    margin-top: 30px;
+}
+.nav{
+  width: 70%;
 }
 .home1{
   font-size: 10px;  
@@ -18,7 +22,7 @@
   align-items: center;
   gap: 10px;
 line-height: 30px;
-margin: 30px auto;
+margin: 100px auto;
 padding: 0 50px;
 }
 .name{
@@ -37,6 +41,7 @@ padding: 0 50px;
   padding: 10px 15px;
   border: 0.5px;
   border-radius: 5px;
+  width: 50%;
 }
 .hero-nav{
   background-color:#baebfd;
@@ -106,4 +111,11 @@ margin: 20px;
   line-height: 100%;
   letter-spacing: 0px;
   margin: 20px;  
+}
+.image img{
+  border-radius: 50%;
+  height: 300px;
+  width: auto;
+  object-fit: cover;
+  object-position: center;
 }
