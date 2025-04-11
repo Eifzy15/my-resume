@@ -22,58 +22,84 @@
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  gap: 10px;
 line-height: 30px;
-margin: 100px auto;
+margin: 80px 200px;
 padding: 0 50px;
 }
 .name{
-  font-size: 35px;
-  font-family: Impact, 'Arial Narrow Bold', ;
+  font-family: Heebo;
+font-weight: 700;
+font-size: 44px;
+line-height: 60px;
+letter-spacing: 0px;
+color: #21243D;
+
 }
 .intro{
   font-family: Heebo;
-font-weight: 400;
-font-size: 16px;
+font-weight: 500;
+font-size: 20px;
 line-height: 100%;
 letter-spacing: 0px;
 color: #21243D;
+margin-top: 20px;
 }
 .resume{
-  font-size: 20px;
-  margin-top: 20px;
+  margin-top: 30px;
   background-color: red;
   color: beige;
   text-align: center;
-  padding: 10px 15px;
+  padding: 10px 25px;
   border: 0.5px;
-  border-radius: 5px;
-  width: 20%;
+  border-radius: 2px;
+  width: 30%;
+  font-family: Heebo;
+font-weight: 500;
+font-size: 20px;
+line-height: 100%;
+letter-spacing: 0px;
+width: 167;
+height: 21;
+top: 486px;
+left: 168px;
 }
 .hero-nav{
-  background-color:#baebfd;
-  
+  width: 100%;
+background: #EDF7FA;
+
 }
 .all-view{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 20px 150px;
 }
 .recent{
   font-size: 20px;
-  margin-left: 10px;
+  font-family: Heebo;
+font-weight: 400;
+font-size: 22px;
+line-height: 60px;
+letter-spacing: 0px;
+color: #21243D;
+margin-left: 40px;
 }
 .view{
   font-size: 15px;
   color: #00A8CC;
-  margin-right: 20px;
+  font-family: Heebo;
+font-weight: 400;
+font-size: 16px;
+line-height: 100%;
+letter-spacing: 0px;
+text-align: right;
+margin-right: 130px;
 }
 .nav-making{
   display: flex;
   justify-content: start;
   align-items: start;
-margin: 10px 0;
-gap: 150px;
+margin: 20px 150px;
 }
 .making{
   background: #FFFFFF;
@@ -126,6 +152,9 @@ margin: 20px;
   object-fit: cover;
   object-position: center;
 }
+.work-nav{
+  margin-left: 130px;
+}
 .feature{
   color: #21243D;
   font-family: Heebo;
@@ -133,6 +162,7 @@ margin: 20px;
   font-size: 22px;
   line-height: 60px;
   letter-spacing: 0px;  
+  margin: 30px;
   margin-left: 50px;
 }
 .dash-nav{
@@ -164,24 +194,49 @@ color: #21243D;
   font-family: Heebo;
 font-weight: 900;
 font-size: 18px;
-line-height: 60px;
+/* line-height: 60px; */
 letter-spacing: 0px;
 color: #FFFFFF;
 background: #21243D;
 border-radius: 8px;
 border: 8px;
 padding: 5px 5px;
-width: 42;
-height: 60;
+/* width: 42; */
+/* height: 60; */
 top: 1123px;
 left: 420px;
+margin-top: 20px;
 }
 .draw{
   font-family: Heebo;
 font-weight: 400;
 font-size: 20px;
-line-height: 100%;
+/* line-height: 100%; */
 letter-spacing: 0px;
 color: #8695A4;
 padding: 5px 5px;
+margin-top: 20px;
+}
+.icons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 100px 20px;
+}
+.face{
+  font-size: 30px;
+}
+.fa-brands{
+  margin: 10px;
+}
+.copy{
+  color: #21243D;
+  font-family: Heebo;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  text-align: center;
+  margin-top: 20px;
 }
