@@ -6,6 +6,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="./style.css">
     <script src="https://kit.fontawesome.com/99f4e541ef.js" crossorigin="anonymous"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -26,15 +27,15 @@
     <main>
         <section class="hero-container">
             <div class="nav">
-                <p class="name">Hi, I am Ify, <br> Progammer</p>
-                <p class="intro">I am a web designer,  I create and design websites, <br> I am good at using html, css and java script</p>
+                <p class="name" data-aos="fade-right" data-aos-duration="3000">Hi, I am Ify, <br> Progammer</p>
+                <p class="intro"  data-aos="fade-left" data-aos-duration="3000">I am a web designer,  I create and design websites, <br> I am good at using html, css and java script</p>
                 <p class="resume">Download Resume</p>
             </div>
           <div class="image">
             <img src="./image/profile.png" alt="">
           </div>      
         </section>
-        <section class="hero-nav">
+        <section class="hero-nav" data-aos="fade-up" data-aos-duration="3000">
             <div class="all-view">
                 <div class="recent">
                     <p>Recent posts</p>
@@ -87,7 +88,7 @@
         <div class="dashboard">
             <img src="./image/Rectangle 30.png" alt="">
             </div>
-            <div class="board">
+            <div class="board" data-aos="fade-right"  data-aos-duration="3000">
             <p class="dash">Designing Dashboards</p>
             <div class="typo">
                 <p class="year">2025 </p>
@@ -101,7 +102,7 @@
             <img src="./image/Rectangle 32.png" alt="">
            
             </div> 
-            <div class="board">
+            <div class="board"data-aos="fade-left" data-aos-duration="3000">
                 <p class="dash">Vibrant Portraits of 2024</p>
                 <div class="typo">
                     <p class="year">2024 </p>  
@@ -114,7 +115,7 @@
     <div class="dashboard">
         <img src="./image/Rectangle 34.png" alt="">
         </div>
-        <div class="board">
+        <div class="board" data-aos="fade-up" data-aos-duration="3000" data-aos-delay="2000">
         <p class="dash">36 Days of Malayalam type</p>
         <div class="typo">
             <p class="year">2024 </p>  
@@ -137,6 +138,10 @@
     </div>
  </div>
     </main>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 
 </html>
