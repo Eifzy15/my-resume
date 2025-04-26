@@ -245,7 +245,10 @@
   padding: 5px 5px;
   margin-top: 20px;
 }
-
+.home a{
+  text-decoration: none;
+  color: inherit;
+}
 .icons {
   display: flex;
   justify-content: center;
